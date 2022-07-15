@@ -1,0 +1,60 @@
+/* 서브페이지 CSS */
+
+/* products */
+#products .row {
+  flex-wrap: wrap;
+ position:relative;
+  /* 칼럼 사이의 여백 */
+}
+#products .product {
+  width: 100%;
+  position: relative;
+  }
+
+#products .product img {
+  width: 50%; 
+}
+
+#products main .container {
+  padding-top: 30px;
+}
+
+#products .product .info {
+  background:#FFFFFF;
+  margin-top: 5px;
+}
+
+h1{
+  text-align: center;
+  background: #FFFFFF;
+  padding-top: 5px;
+}
+
+#range{
+  float: left;
+  background: #FFFFFF;
+  border-style: none;
+  margin-left: 260px;
+}
+
+.main{
+  background: #FFFFFF;
+  display: block;
+}
+
+.category{
+  font-weight: 700;
+}
+
+.refurb{
+  color: blue;
+}
+.price{
+  font-weight: bold;
+}
+
+.sale{
+  color: red;
+}
+
+
